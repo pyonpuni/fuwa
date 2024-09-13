@@ -29,13 +29,8 @@ client.on('ready', async () => {
     .setState('きみを想うたび')
     .setName('冬芽')
     .setDetails(`I・LOVE・YOU!!`)
-    .setParty({
-      max: 8130,
-      current: 973,
-      id: Discord.getUUID()
-    })
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('`https://i.postimg.cc/wTXgYgRr/Untitled1052_20240912203447.gif`')
+    .setAssetsLargeImage('https://i.postimg.cc/wTXgYgRr/Untitled1052_20240912203447.gif')
     .setAssetsLargeText('赤く色づくの♡')
     .addButton('大好き～!!', 'https://lit.link/fuyuesu');
 
