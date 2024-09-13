@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('冬芽')
     .setDetails(`I・LOVE・YOU!!`)
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://imgur.com/a/auNGy2W')
+    .setAssetsLargeImage('https://tenor.com/bItZegghimt.gif')
     .setAssetsLargeText('赤く色づくの♡')
     .addButton('大好き～!!', 'https://lit.link/fuyuesu');
 
