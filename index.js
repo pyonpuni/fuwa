@@ -47,7 +47,7 @@ client.on('ready', async () => {
     setInterval(() => {
       const newTime = formatTime();
       if (newTime !== prevTime) {
-        const newDetails = `BGMI Playing [${newTime}]`;
+        const newDetails = `I・LOVE・YOU!!`;
         r.setDetails(newDetails);
         client.user.setActivity(r);
         prevTime = newTime;
