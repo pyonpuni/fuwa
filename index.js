@@ -23,24 +23,21 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - Successfully Logged On!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1280906241501036544')
+    .setApplicationId('1283962483220025547')
     .setType('STREAMING')
-    .setURL('https://www.twitch.tv/discord')
-    .setState('Streaming with Squad')
-    .setName('Battlegrounds Mobile India')
-    .setDetails(`Streaming BGMI [${formatTime()}]`)
+    .setURL('https://www.twitch.tv/developer')
+    .setState('きみを想うたび')
+    .setName('冬芽')
+    .setDetails(`I・LOVE・YOU!!`)
     .setParty({
       max: 8130,
       current: 973,
       id: Discord.getUUID()
     })
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/1101483858878283877/1281280403860230194/Battleground_Mobile_India.png?ex=66e30ddd&is=66e1bc5d&hm=1db0ed3ce3b1aec3aa1d8e31bbf38abe54780c36054876985b46493e8e74f8a1&=&format=webp&quality=lossless')
-    .setAssetsLargeText('Battleground Mobile India')
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1101483858878283877/1280947566649016470/verified-verificado.gif?ex=66e32962&is=66e1d7e2&hm=823092bf32f499609b4b89651cfac6e0e449ed85e97cf7a8b6265edc13c5e223&=')
-    .setAssetsSmallText('Verified')
-    .addButton('Join My Discord', 'https://discord.gg/SVqQYEMp8m')
-    .addButton('Follow My Instagram', 'https://www.instagram.com/kalpesh.___3080');
+    .setAssetsLargeImage('`https://i.postimg.cc/wTXgYgRr/Untitled1052_20240912203447.gif`')
+    .setAssetsLargeText('赤く色づくの♡')
+    .addButton('大好き～!!', 'https://lit.link/fuyuesu');
 
   try {
     client.user.setActivity(r);
