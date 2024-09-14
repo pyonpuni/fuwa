@@ -32,7 +32,7 @@ client.on('ready', async () => {
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage('https://64.media.tumblr.com/efd5cb33c08e8377a3e84542af5856cc/8dde5d962cffc798-40/s2048x3072/8d717647b4ea2fcb25027e24f1244ac1dfde1444.pnj')
     .setAssetsLargeText('赤く色づくの♡')
-    .addButton('大好き～!!', 'https://lit.link/fuyuesu');
+    .addButton('大好き～!!', 'https://fuyume.bearblog.dev');
 
   try {
     client.user.setActivity(r);
