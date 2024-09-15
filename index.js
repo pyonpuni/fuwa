@@ -30,7 +30,7 @@ client.on('ready', async () => {
     .setName('冬芽')
     .setDetails(`I・LOVE・YOU!!`)
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/1011444419838353429/1284314070933311589/Untitled1057_20240913193949.gif?ex=66e62e2f&is=66e4dcaf&hm=2f5e80b51e638aa8273fa6e2b901d118386e825a64f51c510ccaeb2ec55c5aa5&')
+    .setAssetsLargeImage('http://tiny.cc/discordapp')
     .setAssetsLargeText('赤く色づくの♡')
     .addButton('大好き～!!', 'https://fuyume.bearblog.dev');
 
